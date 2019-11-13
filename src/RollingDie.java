@@ -1,3 +1,4 @@
+//Ankit Amonkar 3B Craps Game
 // Implements a rolling die object.
 
 import java.awt.Graphics;
@@ -195,8 +196,8 @@ public class RollingDie extends Die
                 g.fillOval(x2, y3, dotSize, dotSize);
                 g.fillOval(x3, y3, dotSize, dotSize);
                 g.fillOval(x1, y1, dotSize, dotSize);
-                g.fillOval(x1, y2, dotSize, dotSize);
-                g.fillOval(x1, y3, dotSize, dotSize);
+                g.fillOval(x2, y1, dotSize, dotSize);
+                g.fillOval(x3, y1, dotSize, dotSize);
                 break;
 
         }

@@ -1,3 +1,5 @@
+//Ankit Amonkar 3B Craps Game
+
 public class Die {
     private int x;
     public static void main(String[] args) {
