@@ -1,4 +1,5 @@
 public class Die {
+    private int x;
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Die die = new Die();
@@ -6,12 +7,14 @@ public class Die {
         System.out.println(die.getNumDots());
     }
     public Die(){
-
+        int x=0;
     }
-    public int roll(){
-        int x = (int) Math.random()*6+1;
-        int y = (int) Math.random()*6+1;
+
+    public void roll(){
+        x = (int) (Math.random()*6+1);
+    }
+
+    public int getNumDots(){
         return x;
     }
-
 }
